@@ -1,0 +1,92 @@
+.bg_div1{
+	background:url(../photos_index/about-left.png) no-repeat center left,
+						 url(../photos_index/about-right.png) no-repeat center right,
+						 url(../photos_index/about-top.jpg) no-repeat center top;
+	background-size:240px auto, 280px auto, 100% auto;
+	background-color:#054B5D;
+	min-height:1400px;
+	}
+
+.ml_qs{margin-left:45%;}
+
+.qp_1{
+	position: absolute;
+	z-index:-1;
+	top: 45%;
+	left: 13%;
+	width: 30px;
+	height: 50px;
+}
+
+.bg_div2{
+	background:url(../photos_index/speakers-top.jpg) top center no-repeat,
+	           url(../photos_index/speakers-bottom.jpg) bottom center no-repeat;
+	background-size:100%,100%;
+		background-color:#001f34;
+	min-height: 1500px;
+}
+
+.bg_div3{
+	background:linear-gradient(to top,#020221,#051228);
+	min-height:500px;
+}
+
+.tp_{
+	border-radius:.5rem;
+}
+
+.bg_st1{background:url(../photos_index/bubble-1.png);width:300px;height:243px}
+.bg_st2{background:url(../photos_index/bubble-2.png);width:280px;height:234px}
+.bg_st3{background:url(../photos_index/bubble-3.png);width:200px;height:202px}
+.bg_st4{background:url(../photos_index/bubble-4.png);width:122px;height:182px}
+
+.btn_blue{
+	padding:1rem 1.5rem;
+	border-radius: 100px;
+	background:#3884F9 url(../photos_index/blue.png) bottom center;
+}
+
+.btn_blue:hover{
+	text-decoration:none;
+	background-color:rgba(56,132,249,.7);
+}
+
+.position_mp{
+	display: none;
+	position:absolute;
+	top: -138%;
+	right: 24%;
+}
+
+[class*="w_pts text-md-center text-sm-right position-relative"]:hover .position_mp{
+	display: block;
+}
+
+@media (max-width:576px) {
+	.position_gz{position:absolute; top:-57px}
+	[class="ml-5 d-sm-none d-md-block w-25"]{display:none}
+	.w_btn_blue{width:100%;}
+	.w_pts{width:45%;}
+	.text-sm-right {
+	  text-align: right !important;
+	}
+	.mt-sm-5{
+	  margin-top: 3rem !important;
+	}
+}
+@media (min-width:576px) {
+	.position_gz{position:absolute; top:-64px}
+	.w_btn_blue{width:100%;}
+	.w_pts{width:45%;}
+}
+@media (min-width:768px) {
+	.position_gz{position:absolute; top:-70px}
+	.w_btn_blue{width:25%;}
+	.w_pts{width:32%;}
+}
+@media (min-width:992px) {
+	.position_gz{position:absolute; top:-80px}
+}
+@media (min-width:1200px) {
+	.position_gz{position:absolute; top:-110px}
+}

@@ -1,0 +1,25 @@
+.bg_black{background-color: #000000;min-height:25rem}
+
+a:hover{color:#cf1132;}
+a>span:hover{color:#cf1132;text-decoration:none;}
+
+.font_93{color:#939393}
+
+.qq{
+	width:22px;height:22px;
+	background:url("../photos/png.png");
+	background-position:-164px -30px;
+	border-radius: 50%;
+}
+.wx{
+	width:22px;height:22px;
+	background:url("../photos/png.png");
+	background-position:-204px -30px;
+	border-radius: 50%;
+}
+.wb{
+	width:22px;height:22px;
+	background:url("../photos/png.png");
+	background-position:-79px -30px;
+	border-radius: 50%;
+}

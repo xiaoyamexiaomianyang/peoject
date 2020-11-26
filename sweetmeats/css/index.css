@@ -1,0 +1,152 @@
+.bg_header{
+	background:url(../photos/banner_3qdf.jpg) no-repeat;
+	background-size:100% 90%;
+}
+
+.bg_dhl{
+	background:#fff;
+	border-radius:.15rem;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border:none;
+}
+
+.navbar-toggler:focus{
+	outline:none;
+}
+
+.clear_both{
+	clear: both;
+}
+
+li[class*="nav-item"]:hover a{
+	direction:none;
+	color:#ff9900 !important;
+}
+
+.font_110{
+	font-size: 100px;
+	color:#63c29a;
+	font-family: Arial,Helvetica,sans-serif;
+	letter-spacing: 20px;
+}
+
+.ml_qp{
+	margin-left:60%;
+}
+
+.float_position{
+	margin-top: -12%;
+	margin-left: 6%;
+}
+
+.font_16{
+	font-weight: 600;
+	font-family: Arial,Helvetica,sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+}
+
+.font_12{
+	font-family: Microsoft YaHei;
+	color: rgb(153, 153, 153);
+	line-height: 200%;
+	font-size:12px;
+	width:55%;
+}
+
+.none_{
+	text-decoration: none;
+	color:#000;
+}
+.none_:hover{
+	text-decoration: none;
+}
+
+.hover_t:hover{
+	color:#69c49e;
+}
+.hover_b:hover{
+	color:#ff9f85;
+}
+.hover_z:hover{
+	color:#7fa654;
+}
+.hover_x:hover{
+	color:#e7ce5a;
+}
+.hover_m:hover{
+	color:#6dd5ec;
+}
+
+.hover_black:hover{
+	color:#000 !important;
+}
+
+.font_sm{
+	font-family: Microsoft YaHei;
+	color: #ff9600;
+	line-height: 140%;
+	font-size:12px;
+}
+
+.w_80{
+	width:80%;
+}
+
+.bg_footer{
+	background:#f5e5e5 url(../photos/1_wa8e.jpg) no-repeat 300px 0px;
+	background-size:100% 100%;
+}
+
+.bg_ck{
+	padding:2.5rem;
+	background:url(../photos/8_375q.png) no-repeat center 34px;
+}
+
+.font_32{
+	color:#ff9600;
+	font-size:32px;
+}
+
+.ml_5{
+	margin-left:5%;
+}
+
+.mt_end{
+	margin-top:-5px;
+}
+
+.h_end{
+	height:5px
+}
+
+@media (max-width:576px) {
+	.d-sm-none{display: none;}
+	.w_tp{width:45%;
+				border:1px solid #eee;
+	}
+	.mt-sm-3{margin-top:1rem;}
+	.ml_5{margin-left:25%;}
+}
+@media (min-width:576px) {
+	.w_tp{width:45%;
+				border:1px solid #eee;
+	}
+	.ml_5{margin-left:25%;}
+}
+@media (min-width:768px) {
+	.w_tp{width:23%;}
+	.ml_5{margin-left:25%;}
+}
+@media (min-width:992px) {
+	.ml_5{margin-left:5%;}
+}
+@media (min-width:1200px) {
+
+}

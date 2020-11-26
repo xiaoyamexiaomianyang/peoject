@@ -1,0 +1,148 @@
+.font_color1{
+	color:#142C4A !important;
+}
+
+.bg_header{background: url(../photos_header/hero.jpg) no-repeat;}
+
+.my_line{
+	width:0%;
+	height:3px;
+	background-color:#FF6154;
+	transition:width 0.5s;
+}
+
+a[class="font_14px font_color1 font-weight-bold"]:hover{
+	text-decoration:none;
+	color:#142C4A;
+}
+
+a:hover .my_line{width:100%;}
+
+.btn_join{
+	padding:10px 20px !important;
+	border:2px solid #FF6154;
+	border-radius:100px;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top:0;
+  padding-bottom:0;
+  margin-right:0;
+  font-size:0;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.line_height_12px{line-height: 12px;}
+
+.btn_join:hover{background-color:#FF6154;color:#fff !important;}
+
+.bg-dark {
+  background-color:transparent !important;
+}
+
+.size_logo{width:400px;height:97.41px}
+
+[class*="navbar"]>button:focus{
+  outline: 1px dotted;
+  outline: 5px auto rgb(255,97,84);
+}
+
+.btn_buy{
+	display:inline-block;
+	padding:15px 25px !important;
+	border-radius:100px;
+	background:#E74F43 url(../photos_header/orange.png) 46% 37%;
+}
+
+.btn_buy:hover{
+	text-decoration:none;
+	background-image:none;
+}
+
+.pb_my{
+	padding-bottom:50%;
+}
+
+@keyframes fy1{
+	0%{transform:translate(0px);}
+	50%{transform:translate(40px);}
+	100%{transform:translate(0px);}
+}
+.position_fy1{
+	top:38%;
+	right:10%;
+	animation:fy1 40s  infinite;
+}
+
+@keyframes fy2{
+	0%{transform:translate(0px);}
+	50%{transform:translate(150px);}
+	100%{transform:translate(0px);}
+}
+.position_fy2{
+	top:24%;
+	left:10%;
+	animation:fy2 70s infinite;
+}
+
+@media (max-width:576px) {
+	.w_dhl{width:70%;}
+	.position_fy1{
+		width:30%;
+		top:58%;
+		right:10%;}
+	.position_fy2{
+		width: 70%;
+		top: 32%;
+		left: 10%}
+	
+}
+@media (min-width:576px) {
+	.w_dhl{width:70%;}
+	.position_fy1{
+		width:30%;
+		top:56%;
+		right:10%;}
+	.position_fy2{
+		width: 40%;
+		top: 29%;
+		left: 10%;}
+}
+@media (min-width:768px) {
+	.w_dhl{width:55%;}
+	.pr_dhl{padding-right:28%;}
+	.position_fy1{
+		width:25%;
+		top:52%;
+		right:10%;}
+	.position_fy2{
+		width: 40%;
+		top: 29%;
+		left: 10%;}
+}
+@media (min-width:992px) {
+	.w_dhl{width:47%;}
+	.pr_dhl{padding-right:35%;}
+	.position_fy1{
+		width:25%;
+		top:50%;
+		right:10%;}
+	.position_fy2{
+		width: 40%;
+		top: 25%;
+		left: 10%;}
+}
+@media (min-width:1200px) {
+	.w_dhl{width:40%;}
+	.pr_dhl{padding-right:35%;}
+	.position_fy1{
+		width:25%;
+		top:40%;
+		right:10%;}
+	.position_fy2{
+		width: 40%;
+		top: 10%;
+		left: 10%;}
+}
